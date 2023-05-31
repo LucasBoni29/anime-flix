@@ -12,22 +12,22 @@ export default function Home() {
       poster: "https://www.themoviedb.org/t/p/w220_and_h330_face/kzYbNJ4JaQiRny0cDi8a6bNX5w3.jpg"
     },
     {
-      titulo: "Super mario",
+      titulo: "Dr. Stone",
       nota: "8.9",
       poster: "https://www.themoviedb.org/t/p/w220_and_h330_face/kzYbNJ4JaQiRny0cDi8a6bNX5w3.jpg"
     },
     {
-      titulo: "Super mario",
+      titulo: "Kimetsu no Yaiba",
       nota: "8.9",
       poster: "https://www.themoviedb.org/t/p/w220_and_h330_face/kzYbNJ4JaQiRny0cDi8a6bNX5w3.jpg"
     },
     {
-      titulo: "Super mario",
+      titulo: "One Piece",
       nota: "8.9",
       poster: "https://www.themoviedb.org/t/p/w220_and_h330_face/kzYbNJ4JaQiRny0cDi8a6bNX5w3.jpg"
     },
     {
-      titulo: "A mãe",
+      titulo: "Bleach",
       nota: "6.7",
       poster: "https://www.themoviedb.org/t/p/w220_and_h330_face/5OeWHBMifiRPMz6eS23miS5ttED.jpg"
     }
