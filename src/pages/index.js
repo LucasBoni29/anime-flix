@@ -1,13 +1,13 @@
-import CardFilme from "@/components/CardFilme";
+import CardAnime from "@/components/CardAnime";
 import Header from "@/components/Header";
-import SecaoFilmes from "@/components/SecaoFilmes";
+import SecaoAnimes from "@/components/SecaoAnimes";
 import Titulo from "@/components/Titulo";
 
 export default function Home() {
 
-  const filmes = [
+  const animes = [
     {
-      titulo: "Super mario",
+      titulo: "Jujutso Kaisen",
       nota: "8.9",
       poster: "https://www.themoviedb.org/t/p/w220_and_h330_face/kzYbNJ4JaQiRny0cDi8a6bNX5w3.jpg"
     },
@@ -41,12 +41,11 @@ export default function Home() {
       </div>
       
       <main className="flex min-h-screen flex-col px-24">
-        <Titulo>Filmes em alta</Titulo>
+        <Titulo>Animes em alta</Titulo>
 
-        <SecaoFilmes filmes={filmes} />
+        <SecaoAnimes animes={animes} />
 
-        <Titulo>Melhores dramas</Titulo>
-        <Titulo>Séries em alta</Titulo>
+        <Titulo>Melhores animes do momento</Titulo>
         <Titulo>Lançamentos</Titulo>
 
 

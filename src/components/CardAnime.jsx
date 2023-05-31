@@ -3,7 +3,7 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import { useState } from 'react';
 
-export default function CardFilme({filme}) {
+export default function CardAnime({anime}) {
     const [favorito, setFavorito] = useState(false)
 
     return (
@@ -20,12 +20,12 @@ export default function CardFilme({filme}) {
                         onClick={ () => setFavorito(true)}
                     />
                 }
-                <img className="rounded-lg" src={filme.poster} />
+                <img className="rounded-lg" src={anime.poster} />
             </div>
-            <h4 className="text-xl my-2 line-clamp-1 w-fit ">{filme.titulo}</h4>
+            <h4 className="text-xl my-2 line-clamp-1 w-fit ">{anime.titulo}</h4>
             <div className="flex justify-center items-center">
                 <StarIcon className='text-amber-400' />
-                <span className="text-lg">{filme.nota}</span>
+                <span className="text-lg">{anime.nota}</span>
             </div>
             <a href="#" className="rounded-lg bg-cyan-700 py-2 text-center ">detalhes</a>
         </div>

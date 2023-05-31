@@ -7,7 +7,7 @@ export default function Header() {
 
             <Link href='/' className="flex items-center m-4 text-amber-400">
                 <SlideshowIcon className="text-4xl" />
-                <h1 className="text-4xl">Senac Filmes</h1>
+                <h1 className="text-4xl">Anime Flix</h1>
             </Link>
 
             <Link className="m-4 hover:text-amber-400" href="/sobre">sobre</Link>
