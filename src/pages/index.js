@@ -22,6 +22,11 @@ export default function Home() {
     .then(response => setAnimes(response.results))
     .catch(err => console.error(err));
 
+    fetch('https://api.themoviedb.org/3/discover/tv?include_adult=false&include_null_first_air_dates=false&language=en-US&page=1&sort_by=popularity.desc&with_genres=16,10759,10765', options)
+    .then(response => response.json())
+    .then(response => setAnimesLancamento(response.results))
+    .catch(err => console.error(err));
+
   return (
     <> 
       <Header />
@@ -35,6 +40,7 @@ export default function Home() {
         <SecaoAnimes animes={animes} />
 
         <Titulo>Melhores animes do momento</Titulo>
+        
         <Titulo>Lançamentos</Titulo>
 
         <SecaoAnimes animes={animesLancamento}/>
